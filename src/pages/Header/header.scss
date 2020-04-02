@@ -1,0 +1,47 @@
+@import '../../globalstyles/variables.scss';
+
+.navbar_link{
+    color: $linkcolor;
+    text-decoration: none;
+}
+
+.navbar_link:hover{
+    text-decoration: none;
+    color: $hovercolor;
+}
+
+.navbar_link--active{
+    color: $linkactivecolor;
+}
+
+.navlist{
+    margin-right: 35px;
+    font-size: 20px;
+    font-family: $font-nav;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+ul{
+    padding-inline-start: 0;
+}
+
+.header-body {
+    background-color: black;
+    border-bottom: thick solid rgb(184, 0, 0);
+    -webkit-box-shadow: 0px 6px 26px -5px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 6px 26px -5px rgba(0,0,0,0.75);
+    box-shadow: 0px 6px 26px -5px rgba(0,0,0,0.75);
+}
+
+.navbar {
+    background-color: black;
+}
+
+// Remove ugly outline around Bootstrap 4 navbar button
+.navbar-toggler:focus, .navbar-toggler:active {
+    color: red;
+    outline: none;
+    box-shadow: none;
+  }
+  

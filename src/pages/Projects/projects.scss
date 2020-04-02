@@ -1,0 +1,24 @@
+@import '../../globalstyles/variables.scss';
+
+.projects-body {
+    font-family: $font-nav;
+}
+
+.projects-intro {
+    font-size: 18px;
+}
+
+.project-img {
+    border: solid 1px $defaultcolor;
+}
+
+.website-block {
+    // -webkit-box-shadow: 0px 6px 26px -5px rgba(0,0,0,0.75);
+    // -moz-box-shadow: 0px 6px 26px -5px rgba(0,0,0,0.75);
+    // box-shadow: 0px 6px 26px -5px rgba(0,0,0,0.75);
+
+    -webkit-box-shadow: 10px 10px 15px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 15px 0px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 15px 0px rgba(0,0,0,0.75);
+}
+
