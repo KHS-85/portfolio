@@ -5,7 +5,11 @@ const Navbar = () => {
     return (
         <div className="container">
 
-            <nav className="navbar navbar-expand-lg navbar-dark px-0">
+            <nav className="navbar navbar-expand-sm navbar-dark px-0">
+
+                {/* <div className="col-4">
+                    <h2 className="myName text-left">Kenneth Sørensen</h2>
+                </div> */}
 
 
                 {/* Navbar collapse button */}
@@ -24,16 +28,10 @@ const Navbar = () => {
                             <NavLink exact to="/" className="navbar_link" activeClassName="navbar_link--active">Home</NavLink>
                         </li>
                         <li className="nav-item navlist">
-                            <NavLink to="/projects" className="navbar_link" activeClassName="navbar_link--active">My Projects</NavLink>
+                            <NavLink to="/CV" className="navbar_link" activeClassName="navbar_link--active">CV</NavLink>
                         </li>
                         <li className="nav-item navlist">
-                            <NavLink to="/misc" className="navbar_link" activeClassName="navbar_link--active">Miscellaneous</NavLink>
-                        </li>
-                        <li className="nav-item navlist">
-                            <NavLink to="/about" className="navbar_link" activeClassName="navbar_link--active">About Me</NavLink>
-                        </li>
-                        <li className="nav-item navlist">
-                            <NavLink to="/contact" className="navbar_link" activeClassName="navbar_link--active">Contact</NavLink>
+                            <NavLink to="/Projects" className="navbar_link" activeClassName="navbar_link--active">Portfolio</NavLink>
                         </li>
                     </ul>
 
